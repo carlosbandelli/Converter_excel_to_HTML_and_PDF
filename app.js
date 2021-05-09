@@ -11,7 +11,12 @@ async function main(){ // preciso criar uma função e essa função tem que ser
 
     var usuarios = new Table(dadosProcessados)
 
-    console.log(usuarios.usuarios)
+   // usuarios.rows.push(["jão jão", "formação php", "php","32"]) <= comando para adicionar linhas
+    
+    
+    console.log(usuarios.ColumnCount)
+    console.log(usuarios.RowCount)
+
 
 }
 
