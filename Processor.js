@@ -8,7 +8,7 @@ class Processor{
             rows.push(arr) //pegar a variavel rows push é um metodo que adiciona algum dado dentro de um array
         })
 
-        console.log(rows)
+        return(rows)
     }
 }
 
